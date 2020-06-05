@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,79 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="african_proverbs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pWs-yt-U8X">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQN-5T-R9E">
+                                <rect key="frame" x="20" y="348" width="374" height="200"/>
+                                <color key="backgroundColor" red="0.54472135598002702" green="0.54594896068637866" blue="0.56468204284077372" alpha="0.63294627568493156" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="8xa-mg-gOy"/>
+                                    <constraint firstAttribute="height" constant="200" id="PDo-xx-7O3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orj-bE-po5">
+                                <rect key="frame" x="20" y="548" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.57128410532994922" green="0.57128410532994922" blue="0.57128410532994922" alpha="0.62735445205479456" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="FQ3-S6-pDK"/>
+                                    <constraint firstAttribute="height" constant="30" id="gYn-1H-hef"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="New Quote"/>
+                                <connections>
+                                    <action selector="randomize_quote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="raN-ZH-dws"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxG-JC-4nX">
+                                <rect key="frame" x="294" y="548" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.55086056472081224" green="0.55086056472081224" blue="0.55086056472081224" alpha="0.63495291095890416" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="yco-Wm-IPE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Stop Music"/>
+                                <connections>
+                                    <action selector="musicButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WWo-53-j61"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RQN-5T-R9E" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3jg-dP-MFk"/>
+                            <constraint firstItem="pWs-yt-U8X" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6Lw-RI-Ylc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uxG-JC-4nX" secondAttribute="trailing" constant="20" id="BNJ-lX-7AW"/>
+                            <constraint firstItem="uxG-JC-4nX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Orj-bE-po5" secondAttribute="trailing" constant="8" symbolic="YES" id="ISu-I9-rOI"/>
+                            <constraint firstAttribute="bottom" secondItem="pWs-yt-U8X" secondAttribute="bottom" id="Jn5-Kc-D6V"/>
+                            <constraint firstItem="Orj-bE-po5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Yzr-vI-DEj"/>
+                            <constraint firstItem="RQN-5T-R9E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a3O-tg-m32"/>
+                            <constraint firstItem="RQN-5T-R9E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="h2G-9c-ojI"/>
+                            <constraint firstItem="Orj-bE-po5" firstAttribute="top" secondItem="RQN-5T-R9E" secondAttribute="bottom" id="lXW-Dt-3DS"/>
+                            <constraint firstItem="uxG-JC-4nX" firstAttribute="top" secondItem="RQN-5T-R9E" secondAttribute="bottom" id="sbe-YX-0mI"/>
+                            <constraint firstItem="pWs-yt-U8X" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xtq-bz-tkA"/>
+                            <constraint firstItem="pWs-yt-U8X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zZy-1h-Ym2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="background_image" destination="pWs-yt-U8X" id="ah4-ag-uuA"/>
+                        <outlet property="musicBottonLabel" destination="uxG-JC-4nX" id="UgT-k6-tAt"/>
+                        <outlet property="proverb_label" destination="RQN-5T-R9E" id="mcX-do-g4E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
 </document>

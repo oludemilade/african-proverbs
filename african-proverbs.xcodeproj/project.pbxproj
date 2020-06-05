@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5456B5A3248A173F007D5DEB /* africa_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5456B5A2248A173F007D5DEB /* africa_music.mp3 */; };
+		5456B5A4248A173F007D5DEB /* africa_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5456B5A2248A173F007D5DEB /* africa_music.mp3 */; };
+		5456B5A5248A173F007D5DEB /* africa_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5456B5A2248A173F007D5DEB /* africa_music.mp3 */; };
 		54A0CF932489D88C00FB450C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0CF922489D88C00FB450C /* AppDelegate.swift */; };
 		54A0CF952489D88C00FB450C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0CF942489D88C00FB450C /* SceneDelegate.swift */; };
 		54A0CF972489D88C00FB450C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0CF962489D88C00FB450C /* ViewController.swift */; };
@@ -15,6 +18,36 @@
 		54A0CF9F2489D88E00FB450C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CF9D2489D88E00FB450C /* LaunchScreen.storyboard */; };
 		54A0CFAA2489D88E00FB450C /* african_proverbsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0CFA92489D88E00FB450C /* african_proverbsTests.swift */; };
 		54A0CFB52489D88F00FB450C /* african_proverbsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0CFB42489D88F00FB450C /* african_proverbsUITests.swift */; };
+		54A0CFCD2489F89300FB450C /* africa_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC32489F89100FB450C /* africa_2.jpg */; };
+		54A0CFCE2489F89300FB450C /* africa_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC32489F89100FB450C /* africa_2.jpg */; };
+		54A0CFCF2489F89300FB450C /* africa_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC32489F89100FB450C /* africa_2.jpg */; };
+		54A0CFD02489F89300FB450C /* africa_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC42489F89100FB450C /* africa_6.jpg */; };
+		54A0CFD12489F89300FB450C /* africa_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC42489F89100FB450C /* africa_6.jpg */; };
+		54A0CFD22489F89300FB450C /* africa_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC42489F89100FB450C /* africa_6.jpg */; };
+		54A0CFD32489F89300FB450C /* africa_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC52489F89200FB450C /* africa_5.jpg */; };
+		54A0CFD42489F89300FB450C /* africa_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC52489F89200FB450C /* africa_5.jpg */; };
+		54A0CFD52489F89300FB450C /* africa_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC52489F89200FB450C /* africa_5.jpg */; };
+		54A0CFD62489F89300FB450C /* africa_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC62489F89200FB450C /* africa_7.jpg */; };
+		54A0CFD72489F89300FB450C /* africa_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC62489F89200FB450C /* africa_7.jpg */; };
+		54A0CFD82489F89300FB450C /* africa_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC62489F89200FB450C /* africa_7.jpg */; };
+		54A0CFD92489F89300FB450C /* africa_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC72489F89200FB450C /* africa_8.jpg */; };
+		54A0CFDA2489F89300FB450C /* africa_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC72489F89200FB450C /* africa_8.jpg */; };
+		54A0CFDB2489F89300FB450C /* africa_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC72489F89200FB450C /* africa_8.jpg */; };
+		54A0CFDC2489F89300FB450C /* africa_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC82489F89200FB450C /* africa_10.jpg */; };
+		54A0CFDD2489F89300FB450C /* africa_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC82489F89200FB450C /* africa_10.jpg */; };
+		54A0CFDE2489F89300FB450C /* africa_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC82489F89200FB450C /* africa_10.jpg */; };
+		54A0CFDF2489F89300FB450C /* africa_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC92489F89300FB450C /* africa_4.jpg */; };
+		54A0CFE02489F89300FB450C /* africa_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC92489F89300FB450C /* africa_4.jpg */; };
+		54A0CFE12489F89300FB450C /* africa_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFC92489F89300FB450C /* africa_4.jpg */; };
+		54A0CFE22489F89300FB450C /* africa_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFCA2489F89300FB450C /* africa_3.jpg */; };
+		54A0CFE32489F89300FB450C /* africa_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFCA2489F89300FB450C /* africa_3.jpg */; };
+		54A0CFE42489F89300FB450C /* africa_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFCA2489F89300FB450C /* africa_3.jpg */; };
+		54A0CFE52489F89300FB450C /* africa_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFCB2489F89300FB450C /* africa_1.jpg */; };
+		54A0CFE62489F89300FB450C /* africa_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFCB2489F89300FB450C /* africa_1.jpg */; };
+		54A0CFE72489F89300FB450C /* africa_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFCB2489F89300FB450C /* africa_1.jpg */; };
+		54A0CFE82489F89300FB450C /* africa_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFCC2489F89300FB450C /* africa_9.jpg */; };
+		54A0CFE92489F89300FB450C /* africa_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFCC2489F89300FB450C /* africa_9.jpg */; };
+		54A0CFEA2489F89300FB450C /* africa_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CFCC2489F89300FB450C /* africa_9.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5456B5A2248A173F007D5DEB /* africa_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = africa_music.mp3; sourceTree = "<group>"; };
 		54A0CF8F2489D88C00FB450C /* african-proverbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "african-proverbs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A0CF922489D88C00FB450C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54A0CF942489D88C00FB450C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +83,16 @@
 		54A0CFB02489D88F00FB450C /* african-proverbsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "african-proverbsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A0CFB42489D88F00FB450C /* african_proverbsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = african_proverbsUITests.swift; sourceTree = "<group>"; };
 		54A0CFB62489D88F00FB450C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A0CFC32489F89100FB450C /* africa_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa_2.jpg; sourceTree = "<group>"; };
+		54A0CFC42489F89100FB450C /* africa_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa_6.jpg; sourceTree = "<group>"; };
+		54A0CFC52489F89200FB450C /* africa_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa_5.jpg; sourceTree = "<group>"; };
+		54A0CFC62489F89200FB450C /* africa_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa_7.jpg; sourceTree = "<group>"; };
+		54A0CFC72489F89200FB450C /* africa_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa_8.jpg; sourceTree = "<group>"; };
+		54A0CFC82489F89200FB450C /* africa_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa_10.jpg; sourceTree = "<group>"; };
+		54A0CFC92489F89300FB450C /* africa_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa_4.jpg; sourceTree = "<group>"; };
+		54A0CFCA2489F89300FB450C /* africa_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa_3.jpg; sourceTree = "<group>"; };
+		54A0CFCB2489F89300FB450C /* africa_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa_1.jpg; sourceTree = "<group>"; };
+		54A0CFCC2489F89300FB450C /* africa_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa_9.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +120,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5456B5A1248A1727007D5DEB /* music */ = {
+			isa = PBXGroup;
+			children = (
+				5456B5A2248A173F007D5DEB /* africa_music.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
 		54A0CF862489D88C00FB450C = {
 			isa = PBXGroup;
 			children = (
+				5456B5A1248A1727007D5DEB /* music */,
+				54A0CFC22489F87600FB450C /* Images */,
 				54A0CF912489D88C00FB450C /* african-proverbs */,
 				54A0CFA82489D88E00FB450C /* african-proverbsTests */,
 				54A0CFB32489D88F00FB450C /* african-proverbsUITests */,
@@ -126,6 +180,23 @@
 				54A0CFB62489D88F00FB450C /* Info.plist */,
 			);
 			path = "african-proverbsUITests";
+			sourceTree = "<group>";
+		};
+		54A0CFC22489F87600FB450C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				54A0CFCB2489F89300FB450C /* africa_1.jpg */,
+				54A0CFC32489F89100FB450C /* africa_2.jpg */,
+				54A0CFCA2489F89300FB450C /* africa_3.jpg */,
+				54A0CFC92489F89300FB450C /* africa_4.jpg */,
+				54A0CFC52489F89200FB450C /* africa_5.jpg */,
+				54A0CFC42489F89100FB450C /* africa_6.jpg */,
+				54A0CFC62489F89200FB450C /* africa_7.jpg */,
+				54A0CFC72489F89200FB450C /* africa_8.jpg */,
+				54A0CFCC2489F89300FB450C /* africa_9.jpg */,
+				54A0CFC82489F89200FB450C /* africa_10.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +304,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				54A0CF9F2489D88E00FB450C /* LaunchScreen.storyboard in Resources */,
+				54A0CFE52489F89300FB450C /* africa_1.jpg in Resources */,
+				54A0CFD92489F89300FB450C /* africa_8.jpg in Resources */,
 				54A0CF9C2489D88E00FB450C /* Assets.xcassets in Resources */,
+				54A0CFD62489F89300FB450C /* africa_7.jpg in Resources */,
 				54A0CF9A2489D88C00FB450C /* Main.storyboard in Resources */,
+				5456B5A3248A173F007D5DEB /* africa_music.mp3 in Resources */,
+				54A0CFCD2489F89300FB450C /* africa_2.jpg in Resources */,
+				54A0CFD02489F89300FB450C /* africa_6.jpg in Resources */,
+				54A0CFD32489F89300FB450C /* africa_5.jpg in Resources */,
+				54A0CFDF2489F89300FB450C /* africa_4.jpg in Resources */,
+				54A0CFE22489F89300FB450C /* africa_3.jpg in Resources */,
+				54A0CFDC2489F89300FB450C /* africa_10.jpg in Resources */,
+				54A0CFE82489F89300FB450C /* africa_9.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +324,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A0CFD12489F89300FB450C /* africa_6.jpg in Resources */,
+				54A0CFCE2489F89300FB450C /* africa_2.jpg in Resources */,
+				54A0CFE92489F89300FB450C /* africa_9.jpg in Resources */,
+				54A0CFDD2489F89300FB450C /* africa_10.jpg in Resources */,
+				54A0CFD42489F89300FB450C /* africa_5.jpg in Resources */,
+				54A0CFD72489F89300FB450C /* africa_7.jpg in Resources */,
+				54A0CFE32489F89300FB450C /* africa_3.jpg in Resources */,
+				5456B5A4248A173F007D5DEB /* africa_music.mp3 in Resources */,
+				54A0CFE02489F89300FB450C /* africa_4.jpg in Resources */,
+				54A0CFE62489F89300FB450C /* africa_1.jpg in Resources */,
+				54A0CFDA2489F89300FB450C /* africa_8.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +342,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A0CFD22489F89300FB450C /* africa_6.jpg in Resources */,
+				54A0CFCF2489F89300FB450C /* africa_2.jpg in Resources */,
+				54A0CFEA2489F89300FB450C /* africa_9.jpg in Resources */,
+				54A0CFDE2489F89300FB450C /* africa_10.jpg in Resources */,
+				54A0CFD52489F89300FB450C /* africa_5.jpg in Resources */,
+				54A0CFD82489F89300FB450C /* africa_7.jpg in Resources */,
+				54A0CFE42489F89300FB450C /* africa_3.jpg in Resources */,
+				5456B5A5248A173F007D5DEB /* africa_music.mp3 in Resources */,
+				54A0CFE12489F89300FB450C /* africa_4.jpg in Resources */,
+				54A0CFE72489F89300FB450C /* africa_1.jpg in Resources */,
+				54A0CFDB2489F89300FB450C /* africa_8.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +541,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3CUYFAV98;
 				INFOPLIST_FILE = "african-proverbs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3CUYFAV98;
 				INFOPLIST_FILE = "african-proverbs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
